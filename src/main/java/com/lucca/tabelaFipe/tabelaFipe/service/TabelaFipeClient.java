@@ -10,8 +10,8 @@ import java.net.http.HttpResponse;
 import java.util.Properties;
 
 public class TabelaFipeClient {
-    private static final String apiKey;
-    private static final String baseUrl = "https://parallelum.com.br/fipe/api/v1";
+    private static final String API_KEY;
+    private static final String URL_BASE = "https://parallelum.com.br/fipe/api/v1";
 
     static {
         Properties properties = new Properties();
@@ -20,7 +20,7 @@ public class TabelaFipeClient {
                 throw new IOException("Configuração de arquivo não encontrada!");
             }
             properties.load(input);
-            apiKey = properties.getProperty("FIPE_API_KEY");
+            API_KEY = properties.getProperty("FIPE_API_KEY");
         } catch (IOException e) {
             throw new RuntimeException("Falha ao carregar a chave da API.", e);
         }
