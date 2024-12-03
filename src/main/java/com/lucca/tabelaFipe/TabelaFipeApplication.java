@@ -1,6 +1,6 @@
-package com.lucca.tabelaFipe.tabelaFipe;
+package com.lucca.tabelaFipe;
 
-import com.lucca.tabelaFipe.tabelaFipe.main.Main;
+import com.lucca.tabelaFipe.main.Main;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

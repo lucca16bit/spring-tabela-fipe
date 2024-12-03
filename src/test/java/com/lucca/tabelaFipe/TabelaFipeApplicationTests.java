@@ -1,4 +1,4 @@
-package com.lucca.tabelaFipe.tabelaFipe;
+package com.lucca.tabelaFipe;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
